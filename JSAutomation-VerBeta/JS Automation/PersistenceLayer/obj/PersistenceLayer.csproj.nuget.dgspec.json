@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\D065085\\Desktop\\CurrentWork\\fl.com\\Latest_Code\\JSAutomation_Final\\JS Automation\\PersistenceLayer\\PersistenceLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\D065085\\Desktop\\CurrentWork\\fl.com\\Latest_Code\\JSAutomation_Final\\JS Automation\\PersistenceLayer\\PersistenceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\D065085\\Desktop\\CurrentWork\\fl.com\\Latest_Code\\JSAutomation_Final\\JS Automation\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectName": "PersistenceLayer",
+        "projectPath": "C:\\Users\\D065085\\Desktop\\CurrentWork\\fl.com\\Latest_Code\\JSAutomation_Final\\JS Automation\\PersistenceLayer\\PersistenceLayer.csproj",
+        "packagesPath": "C:\\Users\\D065085\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\D065085\\Desktop\\CurrentWork\\fl.com\\Latest_Code\\JSAutomation_Final\\JS Automation\\PersistenceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\D065085\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

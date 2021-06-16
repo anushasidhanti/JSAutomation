@@ -1,0 +1,7 @@
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\bin\x86\Debug\PersistenceLayer.dll
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\bin\x86\Debug\PersistenceLayer.pdb
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\obj\x86\Debug\PersistenceLayer.csproj.CoreCompileInputs.cache
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\obj\x86\Debug\PersistenceLayer.csproj.CopyComplete
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\obj\x86\Debug\PersistenceLayer.dll
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\PersistenceLayer\obj\x86\Debug\PersistenceLayer.pdb

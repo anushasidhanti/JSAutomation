@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DG.AdvancedDataGridView</id>
+    <version>1.1.23503.5</version>
+    <title>Advanced DataGridView</title>
+    <authors>Davide Gironi</authors>
+    <owners>Davide Gironi</owners>
+    <licenseUrl>https://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://github.com/davidegironi/advanceddatagridview</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/dg.advanceddatagridview/1.1.23503.5/icon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Advanced DataGridView is a .NET WinForm DataGridView with advanced Filtering and Sorting capabilities</description>
+    <summary />
+    <copyright>Copyright (c) Davide Gironi, 2013</copyright>
+    <tags>DataGridView WinForm Advanced Enhanced Table Grid Filter Sort</tags>
+  </metadata>
+</package>

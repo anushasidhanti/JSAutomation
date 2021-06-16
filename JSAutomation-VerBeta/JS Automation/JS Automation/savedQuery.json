@@ -1,0 +1,1 @@
+{"queryID":"16ab0a34-63f9-4398-86f5-9f5262a335a6","query":"Select * \nfrom JDObject AS V_0 \nJOIN JNamedItem AS V_1 ON V_0.Oid = V_1.Oid \nJOIN XSystemHierarchy AS V_2 ON V_1.Oid = V_2.OidDestination \nJOIN JNamedItem AS V_3 ON V_2.OidOrigin = V_3.Oid \n"}

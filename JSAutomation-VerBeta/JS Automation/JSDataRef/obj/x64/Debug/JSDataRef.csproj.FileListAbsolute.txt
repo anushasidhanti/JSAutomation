@@ -1,0 +1,6 @@
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\JSDataRef\bin\x64\Debug\JSDataRef.dll
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\JSDataRef\bin\x64\Debug\JSDataRef.pdb
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\JSDataRef\obj\x64\Debug\JSDataRef.csprojAssemblyReference.cache
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\JSDataRef\obj\x64\Debug\JSDataRef.csproj.CoreCompileInputs.cache
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\JSDataRef\obj\x64\Debug\JSDataRef.dll
+C:\Users\D065085\Desktop\CurrentWork\fl.com\Updated\version2\JSAutomation-Ver2.12.04.2020\JSAutomation-Ver2\JS Automation\JSDataRef\obj\x64\Debug\JSDataRef.pdb

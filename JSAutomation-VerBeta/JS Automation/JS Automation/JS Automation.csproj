@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C00A6D4F-5F7B-49DB-B573-50F78AF25E85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JS_Automation</RootNamespace>
+    <AssemblyName>JS Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView, Version=1.1.23503.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DG.AdvancedDataGridView.1.1.23503.5\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.CAD">
+      <HintPath>..\..\..\..\..\..\..\..\..\source\repos\Tutorial1\XlsDataSheet\Aspose.CAD.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>E:\MyCodes\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CatalogDataMiddleHelper">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CatalogDataMiddleHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar">
+      <HintPath>..\packages\CircularProgressBar.2.7.0.7\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonClient">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonClient.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonMiddle">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonMiddle.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonRouteClientCommands">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonRouteClientCommands.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonRouteClientControls">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonRouteClientControls.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonRouteMiddle">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonRouteMiddle.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonRouteWrappers">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonRouteWrappers.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonRuleWrapper">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CommonRuleWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="CompareCatalogHelper">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\CompareCatalogHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="EquipmentAssemblyDefinition">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\Assemblies\Release\EquipmentAssemblyDefinition.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.CommonToolkit.Client">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\SxS\Intergraph\Intergraph.CommonToolkit.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.CommonToolkit.Client.XmlSerializers">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\SxS\Intergraph\Intergraph.CommonToolkit.Client.XmlSerializers.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.UX.WPF.Toolkit.IConfigure">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\SxS\Intergraph\Intergraph.UX.WPF.Toolkit.IConfigure.dll</HintPath>
+    </Reference>
+    <Reference Include="Intergraph.UX.WPF.Toolkit.S3D">
+      <HintPath>C:\Program Files (x86)\Smart3D\Core\Container\Bin\SxS\Intergraph\Intergraph.UX.WPF.Toolkit.S3D.dll</HintPath>
+    </Reference>
+    <Reference Include="JSDataRef, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\JSDataRef\bin\Debug\JSDataRef.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>E:\MyCodes\Microsoft.Office.Interop.Excel\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DwgToPdf.cs" />
+    <Compile Include="Form99.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form99.Designer.cs">
+      <DependentUpon>Form99.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWaitForm.Designer.cs">
+      <DependentUpon>frmWaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetSiteConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetSiteConnect.Designer.cs">
+      <DependentUpon>GetSiteConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetPlant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetPlant.Designer.cs">
+      <DependentUpon>GetPlant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportLockData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportLockData.Designer.cs">
+      <DependentUpon>ImportLockData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JS Automation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JS Automation.Designer.cs">
+      <DependentUpon>JS Automation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiSelectTreeview.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="objectStatus.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryEditor.cs" />
+    <Compile Include="QueryEditor.Designer.cs">
+      <DependentUpon>QueryEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSelector.Designer.cs">
+      <DependentUpon>ReportSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProperty.Designer.cs">
+      <DependentUpon>UpdateProperty.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form99.resx">
+      <DependentUpon>Form99.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWaitForm.resx">
+      <DependentUpon>frmWaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetSiteConnect.resx">
+      <DependentUpon>GetSiteConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetPlant.resx">
+      <DependentUpon>GetPlant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportLockData.resx">
+      <DependentUpon>ImportLockData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JS Automation.resx">
+      <DependentUpon>JS Automation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QueryEditor.resx">
+      <DependentUpon>QueryEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSelector.resx">
+      <DependentUpon>ReportSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProperty.resx">
+      <DependentUpon>UpdateProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileconnect_mJa_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_Fpj_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modify.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileconnect_mJa_icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileconnect_mJa_icon2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GetConnect.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersistenceLayer\PersistenceLayer.csproj">
+      <Project>{15792549-0dd4-440f-858a-a6385265362c}</Project>
+      <Name>PersistenceLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+{
+  "databases": [
+    {
+      "name": "TestPlant_RDB",
+      "queries": [
+        { "Equipment Report": "Use TestPlant_RDB select o.oid, ni.ItemName as 'Object Name', ul.UserLogin as 'User Last Modified', o.DateLastModified, pg.Name as 'Object PG' from JDObject o join JDPermissionGroup pg on pg.PermissionGroupID=o.ConditionID join JUserLogin ul on ul.oid=UIDLastModifier join JNamedItem ni on ni.Oid=o.Oid where ul.UserLogin like '%' and DateLastModified between '2020-01-01 22:48:37' and '2020-01-11 22:48:37'" },
+        { "Piping MTO Report": "Select ItemName, Name, Description, o0, o1, o2, x0, x1, x2, x3, y0, y1, y2, y3, z0, z1, z2, z3 from JEquipmentOcc x1 Join JNamedItem x2 on x2.oid = x1.oid Join XSOtoSI_R x3 on x3.oidorigin = x1.oid Join JSmartItem x4 on x4.oid = x3.oiddestination Join JEquipment x0 on x1.oid = x0.Oid" },
+        { "Jawahar Report": "Select x2.ItemName as PipeRun, x4.ItemName as PipeLine from JRtePipeRun x1 Join JNamedItem x2 on x2.oid = x1.oid Join XSystemHierarchy x3 on x1.oid = x3.oidDestination Join JNamedItem x4 on x4.oid = x3.oidOrigin" }
+      ]
+    }
+  ]
+}
